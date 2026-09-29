@@ -57,3 +57,13 @@ and source distributions may carry additional bundled-library notices; retain
 those when redistributing an environment or executable. Project Apache-2.0 does
 not relicense dependencies. No code or images were copied from `google/deepdream`
 during this packaging work. Source derivation is recorded in SOURCE_NOTES.md.
+
+## Example photographs
+
+`examples/original.jpg` is copied from the local `photo.jpg` used to create the
+historical batch outputs `mixed4a.jpg` through `mixed4e.jpg`. The generator
+metadata recorded the source path and each layer/parameter combination. Rights
+and original authorship of this photograph were not established for this
+packaging task. The five results are derivative examples. These six files are
+not licensed under the project Apache-2.0 license; review and document separate
+image rights before making the repository public or redistributing them.

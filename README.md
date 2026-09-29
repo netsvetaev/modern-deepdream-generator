@@ -61,6 +61,10 @@ workers. Start with `--workers 1` and modest images on a constrained machine.
 Each parallel child loads a separate model. Large production batches and GPU
 performance were not benchmarked.
 
+## Example results
+
+The [examples gallery](examples/README.md) shows the same original image processed with each of the five separately tested layers (`mixed4a`–`mixed4e`). All were generated with 30 steps, 4 octaves, step size 1.5, tile size 512, and JPEG quality 95. These photos are sample assets and are not covered by the project code license; their rights need review before public redistribution.
+
 ## Install
 
 Run commands from this repository's root. On macOS/Linux:
@@ -203,8 +207,9 @@ contents or generator code. Use a new output directory after code changes or if
 source files were replaced while retaining their timestamps. Run only one wrapper
 per output root. A failure or disk interruption can leave an incomplete pair;
 inspect and remove that pair's three files before retrying, or choose a new root.
-Metadata is written last as the completion marker. No images or datasets ship
-with this repository, and their rights are separate from the code license.
+Metadata is written last as the completion marker. The small sample gallery in
+`examples/` is included separately from the code license; see its README for image
+provenance and rights notes.
 
 ## Verify
 
@@ -248,11 +253,11 @@ THIRD_PARTY_NOTICES.md           Model identity, hashes and license scope
 SOURCE_NOTES.md                  Source history and publication changes
 third_party/inception5h-LICENSE.txt  Verbatim license from the model archive
 models/README.md                 Local model layout (weights ignored)
+examples/README.md               Gallery notes and sample-image rights
 .gitignore                      Excludes weights, environments and output data
 ```
 
-The supplied folder/ZIP is ready to initialize as a Git repository; no remote,
-Git history, model weights, test images, caches or personal source paths are
-included. Publish the folder's contents with GitHub's upload interface or your
-usual Git workflow. The project license covers this project's code and original
-documentation; upstream components retain their own copyright and terms.
+This private GitHub repository includes the small sample images in `examples/`;
+their EXIF comments containing local paths were removed. Their rights are not
+covered by the project code license. Review those rights before making the
+repository public. Model weights, caches and personal source paths are excluded.

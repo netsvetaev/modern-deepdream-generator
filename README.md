@@ -59,11 +59,11 @@ The same original image processed with each of the five separately tested layers
 
 | Original | `mixed4a` — scales / feathers | `mixed4b` — insects / reptiles |
 | --- | --- | --- |
-| ![Original input](original.jpg) | ![mixed4a result](mixed4a.jpg) | ![mixed4b result](mixed4b.jpg) |
+| ![Original input](examples/original.jpg) | ![mixed4a result](examples/mixed4a.jpg) | ![mixed4b result](examples/mixed4b.jpg) |
 
 | `mixed4c` — dogs / slugs | `mixed4d` — large animals | `mixed4e` — more animals |
 | --- | --- | --- |
-| ![mixed4c result](mixed4c.jpg) | ![mixed4d result](mixed4d.jpg) | ![mixed4e result](mixed4e.jpg) |
+| ![mixed4c result](examples/mixed4c.jpg) | ![mixed4d result](examples/mixed4d.jpg) | ![mixed4e result](examples/mixed4e.jpg) |
 
 
 ## Install

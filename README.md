@@ -219,7 +219,5 @@ examples/README.md               Gallery notes and sample-image rights
 .gitignore                      Excludes weights, environments and output data
 ```
 
-This private GitHub repository includes the small sample images in `examples/`;
-their EXIF comments containing local paths were removed. Their rights are not
-covered by the project code license. Review those rights before making the
-repository public. Model weights, caches and personal source paths are excluded.
+Made with Google Antigravity free tier and ChatGPT 5.5. 
+[https://netsvetaev.com](https://netsvetaev.com)

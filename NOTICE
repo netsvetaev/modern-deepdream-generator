@@ -1,0 +1,16 @@
+DeepDream Generator
+Copyright 2026 DeepDream Generator contributors.
+
+Project code and original documentation are licensed under Apache License 2.0.
+
+This project uses the separately downloaded Inception5h pretrained model
+published by Google/TensorFlow:
+Copyright 2015 The TensorFlow Authors. All rights reserved.
+The model archive supplies its own Apache License 2.0. Its original license
+is preserved verbatim in third_party/inception5h-LICENSE.txt and is installed
+beside downloaded weights. This project does not claim authorship of or
+relicense those weights, labels, or upstream license text.
+
+No model weights, example images, datasets or runtime libraries are bundled.
+See THIRD_PARTY_NOTICES.md for exact provenance and dependency references.
+This NOTICE is informational and does not modify any license.
